@@ -4,6 +4,12 @@
 This project predicts whether a loan applicant will default or not using machine learning classification models.  
 The best-performing model is deployed using a Flask web application.
 
+Project:-“I built an end-to-end Loan Default Prediction project using classical machine learning.
+I started with data cleaning, handled missing values, converted categorical features using label encoding, and fixed real-world issues like the ‘3+’ dependents value.
+I trained multiple models including Logistic Regression, KNN, SVC, Naive Bayes, and Random Forest, and compared them using accuracy, confusion matrix, and ROC curve.
+Random Forest performed best because it handles non-linear relationships and mixed data types well.
+Finally, I deployed the model using Flask with an HTML interface, and managed the project professionally on GitHub using .gitignore.
+
 ---
 
 ## Dataset
