@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Loan Default Prediction</title>
+</head>
+<body>
+    <h2>Loan Default Prediction</h2>
+
+    <form action="/predict" method="post">
+        <input name="Gender" placeholder="Gender (0=Female,1=Male)" required><br>
+        <input name="Married" placeholder="Married (0/1)" required><br>
+        <input name="Dependents" placeholder="Dependents (0,1,2,3)" required><br>
+        <input name="Education" placeholder="Education (0/1)" required><br>
+        <input name="Self_Employed" placeholder="Self Employed (0/1)" required><br>
+        <input name="ApplicantIncome" placeholder="Applicant Income" required><br>
+        <input name="CoapplicantIncome" placeholder="Coapplicant Income" required><br>
+        <input name="LoanAmount" placeholder="Loan Amount" required><br>
+        <input name="Loan_Amount_Term" placeholder="Loan Term" required><br>
+        <input name="Credit_History" placeholder="Credit History (0/1)" required><br>
+        <input name="Property_Area" placeholder="Property Area (0=Rural,1=Semiurban,2=Urban)" required><br><br>
+
+        <button type="submit">Predict</button>
+    </form>
+
+    <h3>{{ prediction_text }}</h3>
+</body>
+</html>
